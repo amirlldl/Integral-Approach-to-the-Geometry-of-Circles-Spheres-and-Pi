@@ -35,7 +35,7 @@ The simulation tracks the exact processor execution time via `<time.h>` clock cy
 To link the GMP library and run the benchmark on macOS, execute the following commands in the terminal:
 
 ```bash
-gcc -I/opt/homebrew/include -L/opt/homebrew/lib bench.c -o benchpi -lgmp
+gcc -I/opt/homebrew/include -L/opt/homebrew/lib benchpi.c -o benchpi -lgmp
 ./benchpi
 ```
 
