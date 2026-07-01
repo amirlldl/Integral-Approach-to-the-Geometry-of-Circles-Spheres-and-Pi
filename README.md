@@ -27,7 +27,7 @@ The simulation tracks the exact processor execution time via `<time.h>` clock cy
 
 ## Repository Structure
 
-* `bench.c` — Complete source code containing both iterative loop implementations, memory allocation, and the benchmarking timer.
+* `benchpi.c` — Complete source code containing both iterative loop implementations, memory allocation, and the benchmarking timer.
 * `paper.pdf` — The full analytical research paper compiled in LaTeX detailing the geometric derivation and convergence mathematics.
 
 ## Compilation and Execution
